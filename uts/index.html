@@ -1,82 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Perancangan Web</title>
-        <style>
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-                background: #f4f4f4;
-                margin: 0;
-                padding: 0;
-                color: #333;
-            }
-            header {
-                background: #007acc;
-                color: #fff;
-                padding: 30px 0;
-                text-align: center;
-            }
-            profile-img {
-                border-radius: 50%;
-                display: block;
-                margin: 20px auto;
-                width: 180px;
-                box-shadow: o 4px 8px rgba(0,0,0,0.2);
-            }
-            .biodata {
-                background: #fff;
-                margin: 20px auto;
-                padding: 20px;
-                width: 90%;
-                max-width: 600px;
-                border-radius: 10px;
-                box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            }
-            .biodata {
-                list-style-type: circle;
-                padding-left: 20px;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Web Profile Dhany Aria Nugroho</h1>
-        </header>
 
-        <img src="FullMoon2010.jpg.webp" alt="Foto Profil" style="border-radius: 50%; display: block; margin: auto; width: 200px;">
+<head>
+    <title>Perancangan Web</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
 
-        <div class="biodata">
-            <ul>
-                <li>Kampus: <a href="https://global.ac.id" target="blank">Global Institute</a></li>
-                <li>NIM: 1124160225</li>
-                <li>Nama: Dhany Aria Nugroho</li>
-                <li>Jurusan: Computerized Design & Multimedia</li>
-                <li>Semester: 2</li>
-                <li>Mata Kuliah: Perancangan Web</li>
-            </ul>
-        </div>
+        header {
+            background: #007acc;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        profile-img {
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+            width: 180px;
+            box-shadow: o 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .biodata {
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .biodata ul {
+            list-style-type: circle;
+            padding-left: 20px;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: #fff;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1)
+        }
+
+        table th,
+        table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        table thead {
+            background-color: #00bcd4;
+            color: #fff;
+        }
+
+        .map {
+            display: block;
+            margin: 30px auto;
+            max-width: 90%;
+        }
+
+        .back-to-top {
+            text-align: center;
+            margin: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a img {
+            width: 30px;
+            margin: 0 10px;
+            vertical-align: middle;
+            transition: transform 0.3s;
+        }
+
+        footer a img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Web Profile Dhany Aria Nugroho</h1>
+    </header>
+
+    <img src="FullMoon2010.jpg.webp" alt="Foto Profil"
+        style="border-radius: 50%; display: block; margin: auto; width: 200px;">
+
+    <div class="biodata">
+        <ul>
+            <li>Kampus: <a href="https://global.ac.id" target="blank">Global Institute</a></li>
+            <li>NIM: 1124160225</li>
+            <li>Nama: Dhany Aria Nugroho</li>
+            <li>Jurusan: Computerized Design & Multimedia</li>
+            <li>Semester: 2</li>
+            <li>Mata Kuliah: Perancangan Web</li>
+        </ul>
+    </div>
 
     <table>
-            <tr>
-                <th>No</th>
-                <th>Tugas</th>
-                <th>Link Code</th>
-            </tr>
-            <tr>
-                <td class="tengah">1</td>
-                <td>Membuat Panduan Gambar</td>
-                <td><a href="https://github.com/dannthedamn/1124160225-html-pertemuan5">https://github.com/dannthedamn/1124160225-html-pertemuan5</a></td>
-            </tr>
-            <tr>
-                <td class="tengah">2</td>
-                <td>Membuat Tabel 1</td>
-                <td><a href="https://github.com/dannthedamn/1124160225-html-pertemuan6">https://github.com/dannthedamn/1124160225-html-pertemuan6</a></td>
-            </tr>
-            <tr>
-                <td class="tengah">3</td>
-                <td>Membuat Tabel 2</td>
-                <td><a href="https://github.com/dannthedamn/1124160225-html-pertemuan7">https://github.com/dannthedamn/1124160225-html-pertemuan7</a></td>
-            </tr>
+        <tr>
+            <th>No</th>
+            <th>Tugas</th>
+            <th>Link Code</th>
+        </tr>
+        <tr>
+            <td class="tengah">1</td>
+            <td>Membuat Panduan Gambar</td>
+            <td><a
+                    href="https://github.com/dannthedamn/1124160225-html-pertemuan5">https://github.com/dannthedamn/1124160225-html-pertemuan5</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="tengah">2</td>
+            <td>Membuat Tabel 1</td>
+            <td><a
+                    href="https://github.com/dannthedamn/1124160225-html-pertemuan6">https://github.com/dannthedamn/1124160225-html-pertemuan6</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="tengah">3</td>
+            <td>Membuat Tabel 2</td>
+            <td><a
+                    href="https://github.com/dannthedamn/1124160225-html-pertemuan7">https://github.com/dannthedamn/1124160225-html-pertemuan7</a>
+            </td>
+        </tr>
     </table>
-    </body>
+    <img src="indonesian-map-5816054_960_720.jpg" usemap="#indonesia" class="map">
+    <map name="indonesia">
+        <area shape="rect" coords="100,100,200,200" href="kalimantan.html" alt="Kalimantan">
+        <area shape="rect" coords="250,100,350,200" href="aceh.html" alt="Aceh">
+    </map>
+    <div class="back-to-top">
+        <a href="#top">Klik untuk balik ke atas</a>
+    </div>
+    <footer>
+        <a href="https://github.com/dannthedamn" target="blank"></a>
+        <a href="smrt6045@gmail.com"><img src="bulan.jpg" alt="email"></a>
+    </footer>
+</body>
 </html>
